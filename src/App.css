@@ -23,7 +23,9 @@ button:focus {
 }
 body {
   background-color: #333;
+  overflow-x:hidden; 
 }
 html {
   scroll-behavior: smooth;
+  overflow-x:hidden; 
 }
