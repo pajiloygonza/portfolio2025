@@ -72,3 +72,34 @@ i {
         height: 46vh;
     }
 }
+.contact__section__header {
+  width: 100%;
+  text-align: center;
+  font-size: clamp(2rem, 6vw, 5rem);
+  padding-bottom: clamp(2rem, 5vw, 6rem);
+  background: linear-gradient(
+    90deg,
+    #ff0000, /* Красный */
+    #ff7f00, /* Оранжевый */
+    #ffff00, /* Желтый */
+    #00ff00, /* Зеленый */
+    #8b00ff  /* Фиолетовый */
+  ); /* Градиент радуги */
+  background-size: 400% 400%; /* Увеличиваем размер фона для плавного движения */
+  -webkit-background-clip: text; /* Применяем градиент только к тексту */
+  -webkit-text-fill-color: transparent; /* Делаем текст прозрачным */
+  animation: rainbow-gradient 10s ease infinite; /* Анимация градиента */
+}
+
+/* Анимация для плавного переливания радуги */
+@keyframes rainbow-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
