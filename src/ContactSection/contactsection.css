@@ -29,14 +29,14 @@ i {
     24px,
     5vw,
     38px
-  ); /* Минимум 24px, максимум 38px, адаптация через 5vw */
+  ); 
   height: clamp(
     24px,
     5vw,
     38px
-  ); /* Минимум 24px, максимум 38px, адаптация через 5vw */
+  ); 
   color: #fff;
-  transition: all 0.3s ease; /* Плавный переход для изменения размеров */
+  transition: all 0.3s ease; 
 }
 i {
   font-size: clamp(24px, 4vw, 38px);

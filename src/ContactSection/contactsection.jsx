@@ -17,7 +17,7 @@ const ContactSection = () => {
         <a
           href="https://github.com/pajiloygonza"
           data-aos="flip-left"
-          data-aos-duration="1200" /* Длительность анимации */
+          data-aos-duration="400" /* Длительность анимации */
         >
           <i className="bi bi-github"></i> GitHub
         </a>
@@ -25,8 +25,8 @@ const ContactSection = () => {
           href="mailto:pajiloygonza@gmail.com?subject=Hello&body=I%20saw%20your%20portfolio!"
           target="_blank"
           data-aos="flip-left"
-          data-aos-duration="1200"
-          data-aos-delay="200"
+          data-aos-duration="400"
+          data-aos-delay="00"
         >
           <i className="bi bi-envelope"></i> Mail
         </a>
