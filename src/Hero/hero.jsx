@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./hero.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import background from "../../public/img/background.jpg"; // Укажите правильный путь к вашему изображению
 
 const Hero = () => {
   useEffect(() => {
@@ -9,7 +10,13 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="about" className="hero">
+    <section
+      id="about"
+      className="hero"
+      style={{
+        backgroundImage: `linear-gradient(115deg, rgba(53,53,53,0.63), rgba(7,7,7,0.582)), url(${background})`,
+      }}
+    >
       <h1 data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1500">
         Hello there! I'm Vlad
       </h1>

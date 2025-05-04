@@ -5,12 +5,6 @@
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(
-      115deg,
-      rgba(53, 53, 53, 0.63),
-      rgba(7, 7, 7, 0.582)
-    ),
-    url(img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

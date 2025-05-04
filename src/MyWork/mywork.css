@@ -1,12 +1,16 @@
 .mywork {
   text-align: center;
   padding: 5rem 2rem;
-  background-color: var(--secondary-color);
+  background: linear-gradient(
+      115deg,
+      rgba(53, 53, 53, 0.63),
+      rgba(7, 7, 7, 0.582)
+    );
   width: 100%;
 }
 .mywork__h2 {
   max-width: 980px;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto clamp(2rem, 5vw, 6rem) auto;
   border-bottom: 0.2rem solid aliceblue;
   color: var(--text-color);
   padding-bottom: 20px;
