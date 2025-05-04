@@ -1,0 +1,11 @@
+footer {
+  font-weight: 300;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+  border-top: 4px solid #441563;
+  color: aliceblue;
+  font-size: clamp(14px, 2.5vw, 18px);
+  line-height: 1.6;
+}

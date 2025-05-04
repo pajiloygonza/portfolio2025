@@ -1,0 +1,29 @@
+:root {
+  --secondary-color: rgb(159, 50, 236);
+  --secondary-color-transparent: #00000094;
+  --text-color: #333;
+  --font-family: "Arial", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button,
+button:active,
+button:focus {
+  border: none;
+}
+body {
+  background-color: #333;
+}
+html {
+  scroll-behavior: smooth;
+}

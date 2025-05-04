@@ -1,0 +1,51 @@
+[
+  {
+    "key": "1",
+    "img": "/img/work1.png",
+    "title": "Vampire Shop",
+    "stack": ["HTML, CSS3, JS, Responsive Design, MailJs, Swiper, Favicon, Adobe"],
+    "link": "https://vampireshop.vercel.app/"
+  },
+  {
+    "key": "2",
+    "img": "/img/work2.png",
+    "title": "Fitness Landing",
+    "stack": "HTML, CSS3, JavaScript, React, JSON translations, Responsive Design, MailJs, SwiperJs Flexbox, Clamp(), Git, Vercel, Favicon",
+    "link": "https://landing-react-gamma.vercel.app/"
+  },
+  {
+    "key": "3",
+    "img": "/img/work3.png",
+    "title": "StrongCard",
+    "stack": "HTML, CSS3, JS, React, Responsive Design, MailJs, Swiper, Adobe",
+    "link": "https://strongcard.vercel.app/"
+  },
+  {
+    "key": "4",
+    "img": "/img/work4.png",
+    "title": "Fitness Landing",
+    "stack": "HTML, CSS3, JS, Responsive Design, MailJs",
+    "link": "https://fitness-landing-five.vercel.app/"
+  },
+  {
+    "key": "5",
+    "img": "/img/work5.png",
+    "title": "calculator",
+    "stack": "JS (Massive)",
+    "link": "https://calculator-phi-pink.vercel.app/"
+  },
+  {
+    "key": "6",
+    "img": "/img/work6.png",
+    "title": "Snake",
+    "stack": "HTML, CSS3, JavaScript, Canvas API, Game Logic",
+    "link": "https://snake-three-vert.vercel.app/"
+  },
+  {
+    "key": "7",
+    "img": "/img/work7.png",
+    "title": "StyleCalc",
+    "stack": "HTML, CSS3, JavaScript (Vanilla JS), Canvas API, DOM Manipulation, Git, Vercel",
+    "link": "https://void-sound.vercel.app/"
+  }
+]
